@@ -31,10 +31,10 @@ cc.Class({
   changeSound: function () {
     if (this.isPlay) {
       ga.SoundMgr.setEnabled(false);
-      cc.log("音乐暂停")
+      cc.log("音乐暂停");
     } else {
       ga.SoundMgr.setEnabled(true);
-      cc.log("音乐继续")
+      cc.log("音乐继续");
     }
     this.isPlay = ga.SoundMgr.getEnable();
   },

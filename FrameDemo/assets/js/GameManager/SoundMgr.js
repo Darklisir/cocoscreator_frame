@@ -66,6 +66,6 @@ SoundMgr.prototype.setEnabled = function (isEnabled) {
 //获取音乐开关状态
 SoundMgr.prototype.getEnable = function () {
   return this.enabled;
-}
+};
 
 module.exports = SoundMgr;
