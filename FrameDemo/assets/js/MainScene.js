@@ -29,23 +29,23 @@ cc.Class({
     // },
   },
 
-  ctor () {
+  ctor() {
 
   },
 
   // LIFE-CYCLE CALLBACKS:
 
-  onLoad () {
+  onLoad() {
     window.ga = this;
     ga.SoundMgr = require("SoundMgr").getInstance();
 
   },
 
-  start () {
+  start() {
 
   },
 
-  btnClick (event, tag) {
+  btnClick(event, tag) {
     if (tag == "playBg") {
       ga.SoundMgr.playBgMusic("bgm");
     } else if (tag == "play1") {
